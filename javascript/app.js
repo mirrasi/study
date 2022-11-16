@@ -18,3 +18,18 @@ else if(distance>1){
 else{
     console.log("di bo")
 }
+
+
+let X = 0;
+if(X<0) {
+    console.log("so am")
+}
+else if(X=0) {
+    console.log("x=0")
+}
+else if(X>0) {
+    console.log("so nguyen duong")
+}
+else if(X>0) {
+    console.log("so thap phan duong")
+}
