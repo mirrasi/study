@@ -2,6 +2,57 @@
 margin: 0;
 padding: 0;
 box-sizing:border-box;
-background: url("./image/img two.png");
-background-size:cover;
+}
+
+body{
+    background: url("./image/img two.png");
+    background-size:cover;  
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    heigh:100vh
+}
+.from {
+    background-color: aliceblue;
+    height: fit-content;
+    width: 300px;
+    font-weight:bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.form input, .form label, .from p{
+    margin-left:46px;
+}
+
+.form input{
+    margin-bottom: 10px;
+}
+
+.form h1 {
+    text-align: center;
+}
+
+
+.form button {
+    width: 80%;
+    height:20px;
+    margin-left: 10%;
+    background-color:cornflowerblue;
+    color:aliceblue;
+    border: none;
+    margin-bottom:10px;
+}
+.form button:hover {
+    background-color: aqua;
+}
+
+.form input {
+    border:none;
+    border-bottom:1px solid cornflowerblue;
+    outline:none;
 }
